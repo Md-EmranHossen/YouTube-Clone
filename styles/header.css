@@ -73,7 +73,8 @@
 }
 
 .search-button,
-.voice-search-button {
+.voice-search-button,
+.upload-icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +82,9 @@
 }
 
 .search-button .tooltip,
-.voice-search-button .tooltip {
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip {
+  font-family: Roboto, Arial;
   position: absolute;
   background-color: gray;
   color: white;
@@ -99,7 +102,8 @@
 }
 
 .search-button:hover .tooltip,
-.voice-search-button:hover .tooltip {
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip {
   opacity: 1;
 }
 
