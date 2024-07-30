@@ -10,7 +10,7 @@
   margin-bottom: 10px;
 }
 
-.video-preview {
+video-preview {
 }
 
 .video-info-grid {
@@ -79,4 +79,9 @@
   position: absolute;
   bottom: 8px;
   right: 5px;
+}
+
+.link-with-video-info {
+  text-decoration: none;
+  color: black;
 }
