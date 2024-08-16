@@ -165,3 +165,43 @@
   height: 32px;
   border-radius: 16px;
 }
+
+.navbar {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: rgb(247, 247, 247);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.nav-item {
+  background-color: rgb(231, 231, 231);
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item.active {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+}
+
+.nav-item:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+.nav-item:focus {
+  outline: none;
+}
